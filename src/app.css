@@ -1,0 +1,36 @@
+.app-container {
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.content-container {
+  flex: 1 1 auto;
+}
+a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.invoices-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.invoice-container {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgb(121, 55, 55);
+}
